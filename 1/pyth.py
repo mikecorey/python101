@@ -1,0 +1,6 @@
+a = input("Enter side A: ")
+b = input("Enter side B: ")
+a = int(a)
+b = int(b)
+c = ((a ** 2) + (b ** 2)) ** (1/2)
+print('The hyp is', c)

@@ -1,0 +1,37 @@
+- Intro / Expectations / Tools
+- Why Python? / Hello World
+- Variables and Data Types
+- Strings
+- Regular Expressions
+- Control Flow
+- Loops
+- Activity: Practice Problems
+- Functions
+- Lists
+- Tuples, Dicts, Sets
+- Slicing and Comprehension
+- Activity: Practice Problems
+- Files, CSV, Parquet
+- Error Handling
+- Libraries
+- sqlite3
+- os, math, sys, argparse
+- Activity: Build a CLI for CSV metrics
+- Lambdas and more functions
+- Classes and OOP
+- Logging and Unit Testing
+- Activity: Here debug this.
+- NumPy
+- Activity: Matrix Math
+- Pandas and Dataframes
+- Activity: Transforming and Cleaning Data
+- External APIs and Web basics
+- HTTP calls
+- Flask and Webapps
+- Activity: Query webservice for data
+- AI/ML Basics
+- Sci-kit learn, Scipy optimize
+- Activity: Data to Decisions
+- Kanban board
+- version control (git)
+- Putting it all together ETL → Viz Project
