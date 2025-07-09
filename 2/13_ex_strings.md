@@ -25,3 +25,9 @@ cherish very nearly the same feelings towards the ocean with me.
 2. Does 'ishmael' occur in the string?
 3. Does it occur if we don't care about case
 4. how many words are in this?
+5. Make a string which looks exactly like:
+    In Windows, the command prompt C:\> is where you type commands.
+        It isn't the best in the world. but it works!
+(note the newline and the tabl)
+6. reverse the moby dick string.
+7. replace all the 'a' with 'A'.  (note i didn't tell you how to do it, but try)
