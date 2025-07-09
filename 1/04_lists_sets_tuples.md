@@ -94,7 +94,16 @@ We can simply update lists with assignment by offset.
 ```
 
 # Checking if an item is in a list
-<<TODO>>
+We can check if an element is in a list with the keyword `in`.
+
+```python
+>>> a = [1,2,3,4]
+>>> 3 in a
+True
+>>> 99 in a
+False
+>>>
+```
 
 
 # Sets
