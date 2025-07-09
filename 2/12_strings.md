@@ -20,6 +20,7 @@ s = 'He gave a stern "No"' # this is fine.
 ```
 
 But what about when we need to use special characters?
+<<TODO>> THESE ARE RENDINGING WRONG IN MARKDOWN!!!
 
 | Escape Sequence | Meaning                   | Example                                     |
 | --------------- | ------------------------- | ------------------------------------------- |
