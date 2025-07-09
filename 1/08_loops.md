@@ -136,4 +136,29 @@ range(0, 10)
 ```
 
 range actually `yields` the next number.  We won't dive into this in too much detail, but know that it's NOT creating the whole list for now.
- 
+
+
+## `break` and `continue`
+sometimes we want to not do a full loop or quit early.
+
+break and continue allows this.
+
+`break` will terminate the entire loop and continue after the for.  it's like our condition has not been met suddenly and we drop out.
+
+`continue` says we're done processing that one section and does the next iteration
+
+```python
+>>> for i in range(20):
+...     if i % 2 == 0:
+...             continue
+...     if i > 10:
+...             break
+...     print(i)
+... 
+1
+3
+5
+7
+9
+>>> 
+```
