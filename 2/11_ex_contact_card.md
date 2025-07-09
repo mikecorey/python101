@@ -14,3 +14,6 @@ Store the following data:
 (choose what key makes sense to you. remember, it should be unique.)
 
 Also, whitespace is a bit more liberal for dicts.  feel free to indent some so the dict looks right
+
+Bonus: verify the age is valid.
+Double bonus: verify the zip is valid (zipcodes can start with 0)
