@@ -126,3 +126,23 @@ We can technically call this with our instance titus.  But it's not ideal.  In f
 
 Ideally we'd just call it from the class `Dog.years_to_human_years(m)`.
 
+## Inheritance
+
+Classes can also be hierarchical.  We han have a class that is a specialization or a subtype of another.  For example, animal might have the subtype dog.
+
+We'd say `Dog` inherits from `Animal`.  We specify this just by putting `Animal` in parentheses.
+
+
+```python
+>>> class Animal:
+...     def speak(self):
+...         print("Some sound")
+... 
+>>> class Dog(Animal):
+...     def speak(self):
+...         print("Woof!")
+... 
+>>> dog = Dog()
+>>> dog.speak()  # Woof!
+Woof!
+```
