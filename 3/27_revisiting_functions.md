@@ -230,6 +230,48 @@ we can specify default values for arguments.  this way we can say if a user does
 5 3
 ```
 
+## default values for more complex types.
+You should use None for default values then check in your code if something is set.  For example you often want to note the absence of a value instead of a truly default value.  For simple cases using 0 is fine like if adding and we genuinely don't care.
+
+For strings, we often want to know if the user gave us an empty string or not.  So the following function is less ideal
+
+```python
+def two_strings(a, b=''):
+    print(a,b)
+```
+
+Again, that works, but the function can't tell the difference between `two_strings('hello', '')` and `two_strings('hello')`.
+
+This may or may not matter for your function.  But it's a design choice you should make.
+
+More ideally we'd say
+
+```python
+def two_strings(a, b=None):
+    b = b or ''
+    print(a,b)
+```
+
+You could also certainly say `if b is None:` then set b.
+
+Finally, for lists it's imperative that we use None.  If we try to have an empty list as default, that list will be created and set for every call to the function.
+
+```python
+>>> def add_item(item, items=[]):
+...     items.append(item)
+...     return items
+... 
+>>> add_item(3)
+[3]
+>>> add_item(4)
+[3, 4]
+>>> 
+```
+
+So always use None for complex objects.
+
+
+
 ## args
 Say we just wanted to take a bunch of positional args and we really don't care how many (that's how `print()` works.  just separate the things you want by commas and it prints them all.)
 
