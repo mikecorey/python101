@@ -9,3 +9,6 @@
 
 4. write a function called join_four_strings.  all strings are optional.  return them joined.
 
+5. write a function called fav_things which takes a str name and a list of favorite things (all strings) and prints them.
+    - create favorite things for two people
+
