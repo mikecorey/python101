@@ -146,3 +146,11 @@ We'd say `Dog` inherits from `Animal`.  We specify this just by putting `Animal`
 >>> dog.speak()  # Woof!
 Woof!
 ```
+
+## Double underscore methods.  Dunders
+
+Python has a few double underscore methods.  You've already seen `__init__`.
+
+Additionally, some common ones are
+
+`__str__` how to convert the object to a string
