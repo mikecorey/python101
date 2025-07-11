@@ -154,3 +154,12 @@ Python has a few double underscore methods.  You've already seen `__init__`.
 Additionally, some common ones are
 
 `__str__` how to convert the object to a string
+
+`__repr__` the objects representation (note this only renders if string is not there.)
+
+`__eq__`, `__ne__`, `__gt__` etc.
+
+`__len__` length
+
+`__add__` addition
+
