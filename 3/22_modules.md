@@ -77,6 +77,8 @@ run requests.get('http://google.com') and get the text response from it.
 
 - `path` module with a bunch of path methods
 
+- `os.path.exists` check if a file exists
+
 - `rename` renames a file
 
 `math` common math things
@@ -138,4 +140,35 @@ Here's a few examlples of shortened packages you'll see in others code...
 
 ...
 
+## What's in a module?
 
+You can run help(module_name) to get a fantastic description of whats in modules.  It's very helpful and explains what each function does.  External modules may not be as good, but the built-ins are well documented.
+
+For example, running `help(os)` will give you an interactive help dialog
+
+```
+Help on module os:
+
+NAME
+    os - OS routines for NT or Posix depending on what system we're on.
+
+MODULE REFERENCE
+    https://docs.python.org/3.12/library/os.html
+
+    The following documentation is automatically generated from the Python
+    source files.  It may be incomplete, incorrect or include features that
+    are considered implementation detail and may vary between Python
+    implementations.  When in doubt, consult the module reference at the
+    location listed above.
+
+DESCRIPTION
+    This exports:
+      - all functions from posix or nt, e.g. unlink, stat, etc.
+      - os.path is either posixpath or ntpath
+      - os.name is either 'posix' or 'nt'
+      - os.curdir is a string representing the current directory (always '.')
+      - os.pardir is a string representing the parent directory (always '..')
+      - os.sep is the (or a most common) pathname separator ('/' or '\\')
+      - os.extsep is the extension separator (always '.')
+:
+```
