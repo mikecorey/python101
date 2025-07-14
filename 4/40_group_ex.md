@@ -1,4 +1,4 @@
-# Group Exercise - Revenge of the Contact card revisited
+# Group Exercise - Revenge of the Contact Card
 
 Given everything we've learned in python we've seen that there's many ways to write software.  We're going to revisit the contact card.  This time our requirements are a bit more strict.
 
@@ -7,8 +7,9 @@ Given everything we've learned in python we've seen that there's many ways to wr
 1. You will use a `class` for your contact card.
 2. You will use a `class` for storing multiple contact cards called `AddressBook`.
 3. You will create methods to create, read, update and delete a contact card from an address book.
-4. You will create a method `validate` to validate a contact card. 
+4. You must create a method to allow search on last name (starts with...)
 5. You will create an `export_to_csv` and `export_to_json` method
 6. You will create an `import_from_csv` and `import_from_json`.
+7. You will receive a file with 200 contacts.  You must load these and demonstrate search.
 
 Note: this is less about menus.  So you can either `assert` or just look at your output to validate the program works correctly
