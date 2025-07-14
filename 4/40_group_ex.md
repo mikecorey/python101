@@ -10,6 +10,13 @@ Given everything we've learned in python we've seen that there's many ways to wr
 4. You must create a method to allow search on last name (starts with...)
 5. You will create an `export_to_csv` and `export_to_json` method
 6. You will create an `import_from_csv` and `import_from_json`.
-7. You will receive a file with 200 contacts.  You must load these and demonstrate search.
+7. You will receive a file with 1000 contacts.  You must load these and demonstrate search.
 
-Note: this is less about menus.  So you can either `assert` or just look at your output to validate the program works correctly
+An example row of the input is:
+
+```json
+{"first_name":"Naoma","last_name":"Eidler","email":"neidlerrr@ted.com","phone":"228-805-9162","address":"922 Clyde Gallagher Plaza","city":"LAS VEGAS","state":"MS","zip":"39505"}
+```
+
+Note: Do not worry about menus.  Simply just either `assert` or  look at your output to validate the program works correctly.
+
