@@ -77,7 +77,7 @@ INSERT INTO users (name, email) VALUES
   ('Mark', 'mark@example.com');
 ```
 
-### 3.3 Basic selects
+### Basic selects
 
 #### Want to get everything from a table?
 
@@ -249,7 +249,7 @@ import sqlite3
 
 DB  = 'demo.db'
 
-user_schema = '''
+users_schema = '''
 CREATE TABLE IF NOT EXISTS users (
   id             INTEGER PRIMARY KEY, 
   name           TEXT NOT NULL,
