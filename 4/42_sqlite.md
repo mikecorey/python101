@@ -57,6 +57,16 @@ CREATE TABLE users (
 - Note: You'll need to add `IF NOT EXISTS` to `CREATE TABLE` pretty often when making apps.  You can probably guess why.
 - Note: queries end with a semi-colon.
 
+### Data Types in SQL
+| **Storage Class** | **Description**                       |
+| ----------------- | ------------------------------------- |
+| `NULL`            | A missing value                       |
+| `INTEGER`         | Whole numbers (1, 2, -99, etc.)       |
+| `REAL`            | Floating point numbers (3.14, -2.7)   |
+| `TEXT`            | Strings (e.g. "hello")                |
+| `BLOB`            | Binary data (stored exactly as input) |
+
+
 
 ### Insert rows
 
