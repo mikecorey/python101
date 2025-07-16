@@ -1,0 +1,8 @@
+{"name": "Alice", "major": "Computer Science", "sat": 1380, "age": 19, "scholarship": true, "sport": "Soccer"}
+{"name": "Bob", "major": "Biology", "sat": 1250, "age": 20, "scholarship": false, "sport": null}
+{"name": "Chloe", "major": "Psychology", "sat": 1310, "age": 21, "scholarship": true, "sport": "Tennis"}
+{"name": "David", "major": "Engineering", "sat": 1450, "age": 22, "scholarship": false, "sport": "Soccer"}
+{"name": "Eva", "major": "Art History", "sat": 1200, "age": 20, "scholarship": true, "sport": null}
+{"name": "Frank", "major": "Math", "sat": 1420, "age": 18, "scholarship": false, "sport": "Swimming"}
+{"name": "Grace", "major": "Engineering", "sat": 1340, "age": 19, "scholarship": true, "sport": "Volleyball"}
+{"name": "Henry", "major": "Engineering", "sat": 1280, "age": 21, "scholarship": false, "sport": "Soccer"}
