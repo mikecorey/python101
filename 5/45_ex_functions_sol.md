@@ -54,15 +54,16 @@ def fib(x):
 6. If you couldn't do large numbers add a list outside of already computer fib numbers to make this much faster
 
 ```python
-cache = {}
-
-def fib(x):
-    if x <= 1 :
-        return x
-    elif x in cache:
-        return cache[x]
-    else:
-        res = fib(x-2) + fib(x-1)
-        cache[x] = res
-        return res
+def fib_w_cache(x):
+    cache = {}
+    def fib(x):
+        if x <= 1 :
+            return x
+        elif x in cache:
+            return cache[x]
+        else:
+            res = fib(x-2) + fib(x-1)
+            cache[x] = res
+            return res
+    return fib(x)
 ```
