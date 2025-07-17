@@ -9,16 +9,17 @@
 4. Create a 2D array of shape (3, 2) filled with ones
 
 5. Given the two numpy arrays below...
+
   a. add them
 
   b. multiply them
 
   c. dot product them
 
-```python
-a = np.array([1, 2, 3])
-b = np.array([4, 5, 6])
-```
+    ```python
+    a = np.array([1, 2, 3])
+    b = np.array([4, 5, 6])
+    ```
 
 6. Given the array `arr = np.arange(10)`. get the first 5 elements, the last 3 elements then every other element.
 
