@@ -2,12 +2,14 @@
 
 ## Overview
 Ok we're taking pandas up a notch.  Recall you have already learned to:
-- 
-- 
-- 
-- fill me in
+- Reading files from basically any format.
+- Writing files to virtually any format.
+- Cleaning, filtering columns, dropping NA
+- selecting certain rows
+- merging data frames
+- aggregates etc.
 
-No we're going to look at some deeper cuts to learn how to better manipulate our data.
+Now we're going to look at some deeper cuts to learn how to better manipulate our data.
 
 ## Data set
 Consider the following dataset.
