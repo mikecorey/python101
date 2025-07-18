@@ -23,3 +23,10 @@ Label the departments instead of their abbreviations using `map`
 3. flatten certifications using `explode`
 
 4. make a one hot encoding of certs
+
+5. Mini-Project:  Pull the EV dataset from /assets.  Using Pandas, collect some statistics.
+
+- Avg 0-60
+- efficiency to acceleration
+- efficiency by battery type
+- battery capacity / range
