@@ -18,7 +18,7 @@ df = pd.DataFrame(data)
 
 Label the departments instead of their abbreviations using `map`
 
-2. use `apply` to classify seniority (jr, mid, senior)
+2. use `cut` or `apply` to classify seniority (jr, mid, senior)
 
 3. flatten certifications using `explode`
 
