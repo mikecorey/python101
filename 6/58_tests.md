@@ -1,6 +1,7 @@
 # Python Testing
 
-Learn how to write tests in Python using `assert`, `unittest`, and `pytest`.
+## Overview
+We often want to test our code.  In fact, for production systems we SHOULD test all our code.  This is about not so much making sure you can code, but rather making sure our functions perform as expected.  Expecially when others add code to our codebase.
 
 ## `assert` the easy way
 
@@ -71,6 +72,14 @@ def divide(a, b):
 def test_divide_normal():
     assert divide(10, 2) == 5
 
+def test_divide_zero():
+    with pytest.raises(ZeroDivisionError):
+        divide(5, 0)
+```
+
+Before doing something like raises would require:
+
+```python
 def test_divide_zero():
     try:
         divide(5, 0)
